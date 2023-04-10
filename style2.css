@@ -69,28 +69,3 @@ button {
     padding: 10px 20px;
     font-size: 18px;
   }
-
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../aa.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 100px;
-    }
-
-
-.banner{
-    width:100%;
-    height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.5)), url(../aa.jpg);
-}
-
-.navbar{
-    width:85%;
-    margin:auto;
-    padding:35px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-
-}
-
