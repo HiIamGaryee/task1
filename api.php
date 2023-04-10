@@ -10,13 +10,11 @@ $response = array();
 
 if($con){
     if($_SERVER['REQUEST_METHOD'] == 'GET'){
-        // handle GET request
         if(isset($_GET['id'])){
             // fetch a single customer by id
             $id = $_GET['id'];
             $sql= "SELECT * FROM Customer WHERE id = $id";
         }else{
-            // fetch all customers
             $sql= "SELECT * FROM Customer";
         }
         $result = mysqli_query($con,$sql);
